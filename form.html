@@ -1,0 +1,92 @@
+<html>
+<head>
+<script type="text/javascript" src="wt_4.js" defer>
+</script>
+<style>
+span{
+color:red;
+font-family:system-ui;
+font-size:10px;
+font-weight:normal;
+}
+</style>
+</head>
+<body>
+<div style="font-family:sans-serif">
+
+<img src="/home/student/Desktop/logo.png" height="100px" weight="100px" align="left">
+<h1 align="center">RAJIV GANDHI UNIVERSITY OF KNOWLEDGE TECHNOLOGIES </h1> 
+<center>
+<p> (A.P Government Act 18 of 2008 ) </p>
+<p> IIIT RK Valley,RGUKT-A.P </p>
+<p> RK Valley(Idupulpaya),Vempalli(M),Y.S.R.Kadapa (Dist),A.P-516330</p>
+</center>
+<hr>
+<h1 align="center" >STUDENT REGISTRATION FORM FOR SEM-II,AY 2022-23</h1>
+
+
+<form name="form" action="wt_4.php" method="get">
+
+<pre style="font-family:sans-serif">
+<div style >
+<b>
+<label for="name">name:</label><input type="text" name="uname" id="uname"><span id="uerror"><wt_/span>					<label for="id">id:</label><input type="text" name="uid" id="userid"><span id="iderror" ></span>
+
+
+<label for="password">password:<input type="password" name="upassword" id="password" ><span id="perror"></span>					<label for="email">email:</label><input type="email" name="uemail" id="email"><span id="eerror"></span>
+
+<label for="cpassword">confirm password:<input type="password" name="ucpassword" id="cpassword"><span id="cerror"></span>					<label for="gender">Gender:</label><input type="radio" id="gender" name="ugender" class="gen">female<input type="radio" id="gender" name="ugender" class="gen">male<span id="gerror"></span>
+
+<label for="branch">branch:</label><select><option>choose</option><option>CSE</option><option>ECE</option></select><span id="berror"></span>					<label for="year">year:</label><input type="number" name="yname" id="year"><span id="yerror"><span>	                          
+</b>
+</div>
+</pre>
+<hr>
+SUBJECTS
+<table border="1" cellspacing="0">
+				<tr>
+					<th>SNO</th>
+					<th >SUBCODE</th>
+					<th>SUBNAME</th>
+					<th >CREDITS</th>
+					<th >TYPE</th>
+				</tr>
+
+			<tr><td >1</td><td >20BM2202</td><td ><input type="checkbox" class="usub" name="usub" value="OR">Operational Research</td><td >3</td><td >core</td></tr><tr><td >2</td><td >20CS2201</td><td><input type="checkbox" class="usub" name="usub" value="COA">Computer Organization & Architecture</td><td >3</td><td >core</td></tr><tr><td>3</td><td >20CS2202</td><td ><input type="checkbox" class="usub" name="usub" value="COA">Data Science with Python</td><td >3</td><td >core</td></tr><tr><td >4</td><td>20CS2203</td><td ><input type="checkbox" class="usub" name="usub" value="COA">Web Technologies</td><td >3</td><td >core</td></tr><tr><td >5</td><td >20CS2204</td><td ><input type="checkbox" class="usub" name="usub" value="COA">Compliler Design</td><td >3</td><td >core</td></tr><tr><td >6</td><td>20CS2281</td><td ><input type="checkbox" class="usub" name="usub" value="COAlab">Computer Organization & Architecture Lab</td><td >2</td><td>core</td></tr><tr><td >7</td><td >20CS2282</td><td ><input type="checkbox" class="usub" name="usub" value="DSPlab">Data Science with Python Lab</td><td>2</td><td >core</td></tr><tr><td >8</td><td >20CS2283</td><td ><input type="checkbox" class="usub" name="usub">Web Technologies Lab</td><td style='width: 12%'>2</td><td >core</td></tr>			</table>
+<span id="derror">subject</span>
+		</div>
+
+
+		<div >
+			<p><b>General Instruction for Students:</b></p>
+		
+			<p>1. Making the attendance in all the sessions is mandatory and having 75% of attendance is mandatory to write EST examinations</p>
+			<p>2. You are permitted only for the registered courses.</p>
+			<p>3. Every student should be aware of all the academic guidelines and have a quick note of periodic changes being
+			made in it.</p>
+			<p>4. It is mandatory to get minimum marks (in between 40 to 50) to get pass grade in any of the examinations. For
+			complete information, you may refer the grading procedure as per the academic regulations applicable</p>
+			<p>5. Students are responsible to inform their parents, about attendance requirement (75% of Attendance) to appear for EST exams.</p>
+			<p>Note:-The hard copy of the SEMESTER registration form should be submited to  Office of Head of the Department. </p>
+			<p><b>Declaration:</b></p>
+			<p>I have read the above mentioned guidelines and declare that I obey the institute guidelines, failing which I am
+			liable to any action to be taken on me.</p>
+		</div>
+		
+		<div >
+			<p align="left">Signature Of Student</p>
+			<p align="right" >Signature Of HOD</p>
+		</div>
+	</div>
+</div>
+<br>
+<br>
+FEEDBACK
+<textarea id="ufeed">
+</textarea>
+<span id="feederror">text</span>
+<button>submit</button>
+
+</form>
+</body>
+</html>
